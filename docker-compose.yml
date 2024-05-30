@@ -1,0 +1,6 @@
+services:
+  greet:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: prod

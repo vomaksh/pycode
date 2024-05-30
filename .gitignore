@@ -1,0 +1,14 @@
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore Python bytecode directories
+__pycache__/
+
+# Other ignored files and directories
+.DS_Store
+*.log
+*.swp
+
+# ide stuff
+.vscode
+.idea

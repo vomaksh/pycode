@@ -1,0 +1,24 @@
+{
+	"name": "Greet",
+	"dockerComposeFile": "../docker-compose.dev.yml",
+	"service": "greet",
+	"workspaceFolder": "/workspace",
+	"shutdownAction": "none",
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"ms-python.black-formatter"
+			],
+			"settings": {
+				"[python]": {
+					"editor.defaultFormatter": "ms-python.black-formatter"
+				}
+			}
+		}
+	}
+}
